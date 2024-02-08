@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nocturnav2/static/css/main.599c90d7.css",
+    "main.js": "/nocturnav2/static/js/main.0f384984.js",
+    "static/js/592.4c6b3037.chunk.js": "/nocturnav2/static/js/592.4c6b3037.chunk.js",
+    "static/media/hero_img.png": "/nocturnav2/static/media/hero_img.b38268d11db84e58984f.png",
+    "static/media/img_section.png": "/nocturnav2/static/media/img_section.42b397af64f94228e8a5.png",
+    "static/media/faq_illustration.png": "/nocturnav2/static/media/faq_illustration.1a47c73e4c3eb1566728.png",
+    "static/media/hero_img2.png": "/nocturnav2/static/media/hero_img2.14a36a7373b43a968fe9.png",
+    "static/media/phone.png": "/nocturnav2/static/media/phone.857f154082e0459ba66c.png",
+    "index.html": "/nocturnav2/index.html",
+    "main.599c90d7.css.map": "/nocturnav2/static/css/main.599c90d7.css.map",
+    "main.0f384984.js.map": "/nocturnav2/static/js/main.0f384984.js.map",
+    "592.4c6b3037.chunk.js.map": "/nocturnav2/static/js/592.4c6b3037.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.599c90d7.css",
+    "static/js/main.0f384984.js"
+  ]
+}
