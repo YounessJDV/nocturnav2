@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BiX } from "react-icons/bi";
@@ -34,6 +36,8 @@ const Navbar = () => {
 
                         {/*for larger devices*/}
                         <div className="w-1/3 justify-center lg:flex font-medium items-center gap-3 hidden">
+                            <Link to="/" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4">Création de site web</Link>
+                            <Link to="/contact" className="block hover:text-gray-400 dark:text-white py-2 px-1 xl:px-4">Contact</Link>
                             {/* <a href="/" className="block hover:text-gray-400 py-2 px-1 xl:px-4">FAQ</a> */}
                         </div>
                         
@@ -47,7 +51,9 @@ const Navbar = () => {
                                 </div>
                             </div>
 
-
+                            <Link to="/contact" className="btnOutline ml-5">
+                                Contact
+                            </Link>
                         </div>
 
                         {/*Open small menu btn*/}
@@ -69,7 +75,8 @@ const Navbar = () => {
                 
                 <div className="text-center">
                     {/* <a href="/" className="block hover:text-gray-400 py-2">Accueil</a> */}
-
+                    <Link to="/" onClick={toggleMenu} className="block hover:text-gray-400 py-2">Création de site web</Link>
+                    <Link to="/contact" onClick={toggleMenu} className="block hover:text-gray-400 py-2">Contact</Link>
                 </div>
 
                 <div className="flex flex-col items-center overflow-hidden mt-5 py-3 bg-white rounded-lg">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Switch, Link } from "react-router-dom";
 
 import './App.css';
 
@@ -30,12 +31,39 @@ function App() {
    }, []);
 
   return (
-    <div className="App">
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar /> 
+                <Header className="z-10" />
+                <Features className="z-0"  />
+                <SectionOne/>
+                <Offres/>
+                <Faq/>
+                <Cta/>
+                <Footer/>
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
                 <Navbar />
                 <Contact />
                 <CtaContact />
                 <Footer />
+              </>
+            }
+          />
+        </Routes>
       </div>
+    </Router>
   );
 }
 
