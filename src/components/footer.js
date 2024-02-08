@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Route, Routes, Switch, Link } from "react-router-dom";
 
 import LogoImg from '../img/navbar/nav_logo.png'
 
@@ -43,7 +42,6 @@ function Footer() {
                         <ul className="mt-2 md:mt-6 space-y-4 text-sm">
                             <li className="text-white"> Mail : <a  className="text-white transition hover:text-white/75" href="mailto:jounidovyouness@gmail.com">nocturna@contact.com </a></li>
                             <li className="text-white">Téléphone : <a className="text-white transition hover:text-white/75" href="/">07 81 90 51 92</a></li>
-                            <li><Link to="/contact" className="text-white transition hover:text-white/75"> Contact </Link></li>
                         </ul>
                     </div>
                 </div>
