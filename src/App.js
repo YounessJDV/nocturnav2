@@ -31,39 +31,11 @@ function App() {
    }, []);
 
   return (
-    <Router>
-      <ScrollToTop />
+
       <div className="App">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Navbar /> 
-                <Header className="z-10" />
-                <Features className="z-0"  />
-                <SectionOne/>
-                <Offres/>
-                <Faq/>
-                <Cta/>
-                <Footer/>
-              </>
-            }
-          />
-          <Route
-            path="/contact"
-            element={
-              <>
-                <Navbar />
-                <Contact />
-                <CtaContact />
-                <Footer />
-              </>
-            }
-          />
-        </Routes>
+        <h1 className="text-black">Salut a toi</h1>
       </div>
-    </Router>
+
   );
 }
 
